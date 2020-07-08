@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap";
+
+ .main-img{
+     width: 100%;
+     height: 100%;
+ }
+
+ .navbar-brand {
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Galada', cursive;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Yellowtail', cursive;
+ }
+
+ .navbar-brand:hover{
+    text-decoration: underline;
+    color: green;
+    
+
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 15px;
+}
+
+
+.nav-link:hover{
+    color: green;
+    background-color: whitesmoke;
+    border: 1px solid green;
+    border-radius: 15px;
+    font-weight: bold;
+    border-width: 3px;
+    
+}
+
+.footer {
+    background-color: white;
+    margin-top: 135px;
+    font-size: 15px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+ }
+
+ .btn {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+ }
+
+ .form-inputs {
+     background-color: whitesmoke;
+     margin-left: 360px;
+     margin-right:360px;
+     padding: 20px;
+ }
+ .form-actions {
+    background-color: whitesmoke;
+    margin-left: 360px;
+    margin-right:360px;
+    padding: 20px;
+}
+
+.form-inline{
+    
+    margin-left: 70px;
+}
+
+.links{
+    font-size: 15px;
+     margin-left: 360px;
+     margin-right:360px;
+     color: black;
+     
+}
+
+.container{
+    text-align: center;
+}
+
+.card {
+    background-color: red;
+}
+
+
+
+
